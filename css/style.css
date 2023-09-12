@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Montserrat:wght@100;300&family=PT+Sans&family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 420px;
+    margin: 0;
+    justify-content: center;
+}
+
+.Titulo1, .Titulo2, .Titulo3, .Tabela, .tabela2{
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.Titulo1{
+    background-color: #fbff1f;
+    color: #025A5E;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.Titulo2{
+    color: #025A5E;
+    margin-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.Titulo3{
+    color: #FFFFFF;
+    background-color: #025A5E;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 28px;
+    margin-bottom: 15px;
+}
+
+tr td:nth-child(odd) {
+    background-color: #007E8C; /* Cor para as células da coluna dos nomes */
+    color: #FFFFFF; /* Cor do texto nas células da coluna dos nomes */
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    justify-items: center;
+}
+ 
+  tr td:nth-child(even) {
+    background-color: #01585F; 
+    color: #FFFFFF; 
+    border-radius: 0 10px 10px 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+.corpo {
+    background-image: url('../imagens/FUNDO.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: scroll;
+}
+
+.Tabela {
+    background-color: #007e8c7c;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+footer{
+    margin-top: 80px;
+    justify-content: space-around;
+    display: flex;
+    background-color: #00858A;
+}
